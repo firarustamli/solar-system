@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+  }
+
+  .sun {
+    width: 50px;
+    height: 50px;
+    background-color: #ffcc00;
+    border-radius: 50%;
+    position: relative;
+  }
+
+  .planet {
+    border-radius: 50%;
+    position: absolute;
+    transform-origin: center bottom;
+    animation: orbit 5s linear infinite;
+    z-index: 1;
+  }
+  
+  @keyframes orbit1 {
+    from {
+      transform: rotate(0deg) translateY(100px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translateY(100px) rotate(-360deg);
+    }
+  }
+  @keyframes orbit2 {
+    from {
+      transform: rotate(0deg) translateY(150px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translateY(150px) rotate(-360deg);
+    }
+  }
+
+  @keyframes orbit3 {
+    from {
+      transform: rotate(0deg) translateY(200px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translateY(200px) rotate(-360deg);
+    }
+  }
+  @keyframes orbit4 {
+    from {
+      transform: rotate(0deg) translateY(250px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translateY(250px) rotate(-360deg);
+    }
+  }
+
+  @keyframes orbit5 {
+    from {
+      transform: rotate(0deg) translateY(300px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translateY(300px) rotate(-360deg);
+    }
+  }
+  @keyframes orbit6 {
+    from {
+      transform: rotate(0deg) translateY(350px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translateY(350px) rotate(-360deg);
+    }
+  }
+  @keyframes orbit7 {
+    from {
+      transform: rotate(0deg) translateY(400px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translateY(400px) rotate(-360deg);
+    }
+  }
+
+  @keyframes orbit8 {
+    from {
+      transform: rotate(0deg) translateY(450px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translateY(450px) rotate(-360deg);
+    }
+  }
+
+
+  .mercury{
+    background-image: url(https://www.pngmart.com/files/22/Mercury-PNG-HD-Isolated.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    animation-duration: 1.5s;
+    animation-name: orbit1;
+  }
+  .venus{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/93/Venus_globe_-_transparent_background.png);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    animation-duration: 3.5s;
+    animation-name: orbit2;
+  }
+  .earth{
+    background-image: url(https//upload.wikimedia.org/wikipedia/commons/thumb/2/22/Earth_Western_Hemisphere_transparent_background.png/1200px-Earth_Western_Hemisphere_transparent_background.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    animation-duration: 5s;
+    animation-name: orbit3;
+  }
+  .mars{
+    background-image: url(https://www.freepnglogos.com/uploads/mars-png/mars-transparent-png-stickpng-0.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    animation-duration:7.5s;
+    animation-name: orbit4;
+  }
+  .jupiter{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e1/Jupiter_%28transparent%29.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    animation-duration: 26s;
+    animation-name: orbit5;
+  }
+  .saturn{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Saturnx.png/1200px-Saturnx.png);
+    background-size: cover;
+    width:20px;
+    height:20px;
+    animation-duration:47.5s;
+    animation-name: orbit6;
+  }
+  .uranus{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Transparent_Uranus.png/640px-Transparent_Uranus.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    animation-duration: 95s;
+    animation-name: orbit7;
+  }
+  .neptune{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Neptune_cutout.png/776px-Neptune_cutout.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    animation-duration:150s;
+    animation-name: orbit8;
+  }
